@@ -45,7 +45,7 @@ class TodoListViewController: UITableViewController {
              tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         }
         
-        tableView.deselectRow(at: indexPath, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true) 
         
       
     }
